@@ -1,0 +1,62 @@
+.App {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.904);
+    border-radius: 15px;
+    color: rgb(255, 81, 0)
+}
+
+h2 {
+    text-shadow: 1px 1px 2px black;
+    margin: 4rem 0;
+    font-size: 3rem;
+    color: rgb(10, 10, 1);
+}
+
+button {
+    text-shadow: 1px 1px 2px black;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:nth-of-type(1) {
+    background-color: green;
+    border: 2px solid red;
+    color: white;
+    border-radius: 10rem;
+}
+
+button:nth-of-type(2) {
+    background-color: rgb(241, 18, 18);
+    border: 2px solid rgb(3, 3, 3);
+    color: white;
+}
+
+button:nth-of-type(3) {
+    background-color: rgb(7, 60, 235);
+    border-radius: 10rem;
+    border: 2px solid red;
+    color: white;
+}
+
+:disabled {
+    opacity: 0.4;
+}
